@@ -28,6 +28,11 @@
   font-weight: bold;
   margin-right: 5px;
 }
+.primary {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
 
 .secondary article {
   display: flex;
@@ -35,9 +40,11 @@
   margin: 1em;
   /* border: 10px solid var(--blue-main); */
 }
+
 .secondary {
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-evenly;
 }
 
 ul li a:hover {

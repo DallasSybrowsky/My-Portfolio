@@ -51,4 +51,7 @@ Here is a link to the live site: https://dallassybrowsky.github.io/Horiseon/
 
 Below is a screenshot of the refactored website:
 
-<img width="500" alt="Screen Shot of Portfolio Website" src="./assets/images/DSybrPortfolio.png">
+![alt="Screen Shot of Portfolio Website"] (src="./assets/images/DSybroPortfolio.png")
+
+<img width="500" alt="Screen Shot of Portfolio Website" src="./assets/images/DSybroPortfolio.png">
+<img width="500" src="./assets/images/DSybroPortfolio.png" alt="Screenshot of Portfolio">
