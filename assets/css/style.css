@@ -1,63 +1,63 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap"); /* Imports font from Google Fonts to be used throughout page */
 
-:root {
+:root { /* Contains the root section for easier application of settings throughout the rest of the file */
   --blue-main: #1f3185;
   --white-main: #f0ead6;
 }
 
-* {
+* { /* Application of fonts, etc. to all sections unless otherwise specified */
   font-family: "Montserrat", sans-serif;
   box-sizing: border-box;
 }
 
-.header {
+.header { /* Header styling */
   padding-right: 4px;
   background-color: var(--blue-main);
   color: var(--white-main);
 }
 
-.header h1 {
+.header h1 { /* Style for h1 in the header */
   display: inline;
   font-size: 48px;
   padding: 0px 0px 4px 0px;
   margin: 0px 0px 0px 4px;
 }
 
-.header nav ul li {
+.header nav ul li { /* Style for the nav list in the header */
   color: var(--white-main);
   font-weight: bold;
   margin-right: 5px;
 }
-.primary {
+
+.primary { /* Style for the primary project image, box, etc. in the main section */
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
 }
 
-.secondary article {
+.secondary { /* Style for the secondary section  */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.secondary article { /* Style for the articles in the secondary section  */
   display: flex;
   width: 45%;
   margin: 1em;
-  /* border: 10px solid var(--blue-main); */
 }
 
-.secondary {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
-}
-
-ul li a:hover {
+ul li a:hover { /* Governs the hover behavior for items in the navigation bar */
   font-weight: bold;
   border-color: var(--white-main);
 }
 
-body {
+body { /* General body styling  */
   margin: 0px;
   background-color: var(--white-main);
 }
 
-header {
+header { /* Header styling */
   display: flex;
   justify-content: space-between;
   padding: 2px 0px;
@@ -65,13 +65,13 @@ header {
   color: var(--blue-main);
 }
 
-nav {
+nav { /* Style for the navigation bar */
   display: flex;
   align-items: stretch;
   border-radius: 10px;
 }
 
-nav a {
+nav a { /* Style for the navigation bar anchor items */
   color: var(--white-main);
   border-bottom: solid 3px transparent;
   padding: 5px 20px;
@@ -79,32 +79,32 @@ nav a {
   text-align: center;
 }
 
-.section-details .projects a:hover {
+.section-details .projects a:hover { /* Governs hover behavior for items in the projects class section  */
   opacity: 0.75;
   transition: 0.5s;
 }
 
-.nav-list {
+.nav-list { /* Setting flex for the nav-list class */
   display: flex;
 }
 
-.nav-list li {
+.nav-list li { /* Style for nav-list class list */
   display: flex;
   align-items: center;
   font-size: 20px;
 }
 
-.main-section {
+.main-section { /* General main-section class styling  */
   background-color: var(--white-main);
   color: var(--blue-main);
 }
 
-.main-section a {
+.main-section a { /* General main-section class anchor styling  */
   color: var(--blue-main);
   text-decoration: none;
 }
 
-.img-banner {
+.img-banner { /* Governs insertion of the background image and image settings  */
   height: 300px;
   max-width: 100%;
   margin: 0px;
@@ -114,28 +114,24 @@ nav a {
   background-size: cover;
 }
 
-main {
+main { /* Sets flex and wrap for main section */
   display: flex;
   flex-wrap: wrap;
 }
 
-section {
-  background-color: var(--white-main);
-}
-
-.main-section { /*Governs main section style*/
+.main-section { /* Governs main-section class style*/
   display: flex;
   flex-direction: row;
   width: 100%;
 }
-.section-title { /*Governs main section style*/
+.section-title { /* Governs section-title class style*/
   justify-content: center;
   flex-basis: 30%;
   border-right: 4px solid var(--blue-main);
   margin: 10px 0px 20px 10px;
 }
 
-.section-title h2 {
+.section-title h2 { /* Styling for section titles */
   min-width: 152px;
   justify-content: flex-end;
   text-align: right;
@@ -144,7 +140,7 @@ section {
   margin: 0px 8px 0px 0px;
 }
 
-.section-title img {
+.section-title img { /* Settings for portrait in About Me title section */
   max-width: 60%;
   border-radius: 12px;
   justify-content: center;
@@ -152,126 +148,119 @@ section {
   padding: 5px 5px 0px 0px;
 }
 
-.section-details {
+.section-details { /* Sets horizontal size of section-details class */
   margin: 12px;
   justify-content: flex-end;
   flex-basis: 80%;
 }
-.section-details p {
+
+.section-details p { /* Governs paragraph styling in section-details class */
   margin: 12px 8px 12px 8px;
   font-size: 20px;
   line-height: 1.6;
 }
-.section-details img {
+
+.section-details img { /* Inserts border around images in section details */
   border: 12px solid var(--blue-main);
 }
 
-article {
+article { /* Sets width of articles */
   width: 95%;
 }
 
-article img {
+article img { /* Governs images in article section */
   max-width: 100%;
   border-bottom: 4px solid var(--blue-main);
   margin: 0px 0px -4px 0px;
 }
 
-article header {
+article header { /* Governs header behavior in article section */
   background-color: var(--blue-main);
   padding: 0px 0px 8px 8px;
   color: var(--white-main);
 }
-article header .primaryProject {
+
+article header .primaryProject { /* Governs primary-project class styling, spacing, etc. */
   background-color: var(--blue-main);
   padding: 0px 0px 8px 8px;
   color: var(--white-main);
   width: 50%;
 }
+.contact-me a { /* Governs link behavior in contact-me class */
+  padding: 5px 20px;
+  margin: 0px;
+}
 
-/* .content {
-  display: flex;
-  flex-direction: column;
-} */
-
-/* Contact me section */
-.contact-list {
+.contact-list { /* Sets flex and maximum width for items in the contact-list class */
   display: flex;
   max-width: 75%;
   justify-content: space-around;
 }
 
-.contact-me a {
-  padding: 5px 20px;
-  margin: 0px;
-}
-
-.contact-list img {
+.contact-list img { /* Sets sizing for icons in contact-list class */
   width: 96px;
   align-items: center;
   border: 0px solid transparent;
 }
-.contact-list li:hover {
+
+.contact-list li:hover { /* Governs hover behavior of icons in contact me section */
   margin: -12px 0px;
   transition: 0.5s;
 }
 
-footer {
+footer { /* Stlyes footer section */
   padding: 20px;
   text-align: center;
   background: var(--blue-main);
   color: var(--white-main);
 }
 
-@media screen and (max-width: 931px) {
+@media screen and (max-width: 931px) { /* Sets media query to prevent wrapping on intermediate screen sizes */
   header h1 {
     min-width:416px;
     font-size: .75em;
-  }  
-  header nav ul {
+  }
+  header nav ul { /* Changes header nav list font sizes based on media query */
     font-size: .6em;
   }
-
-  .secondary article {
-    display: flex;
-    width: 100%;
-    margin: 1em;
-    /* border: 10px solid var(--blue-main); */
-  }
-  .secondary {
+  .secondary { /* Sets flex for secondary class in media query */
     display: flex;
     flex-wrap: wrap;
   }
+  .secondary article { /* Changes orientation of articles in secondary class based on media query */
+    display: flex;
+    width: 100%;
+    margin: 1em;
+  }
 }
 
-@media screen and (max-width: 768px) {
-  /* Changing the header*/
- header h1 {
-    min-width:416px;
+@media screen and (max-width: 768px) { /* Media query for screens below 768px in width */
+  
+ header h1 { /* Ensures minimum width for items in header to prevent wrap */
+    min-width: 416px;
     font-size: .75em;
   }  
-  /* Change the header configuration */
-  header a {
+  header a { /* Ensures minimum width for items in header to prevent wrap */
     min-width: 136px;
     background: var(--blue-main); 
   }
-  /* Change the navbar and footer background */
-  header nav ul {
+  header nav ul {  /* Changes the header nav bar list to fit smaller screens */
     display: flex;
     font-size: .75em;
     flex-direction: column;
     align-items:flex-start;
     background-color: var(--blue-main);
   }
-  .contact-list {
+  .contact-list {  /* Sets flex, positioning, and max width based on media query */
     display: flex;
     max-width: 100%;
     justify-content: space-around;
   }
-  .contact-me a {
+  .contact-me a { /* Sets margin and padding for links in contact-me class based on media query */
     padding: 4px 16px;
     margin: 0px;
   }
-  .contact-list img {
+  .contact-list img { /* Sets image style in contact-me class based on media query */
     width: 60px;
     align-items: center;
     border: 0px solid transparent;

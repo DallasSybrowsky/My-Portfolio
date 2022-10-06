@@ -49,7 +49,8 @@ Below are details on the methods I used to accomplish each of the items in the A
     * The first application link is larger than subsequent links, and links to the live webpage it references.
 
     * The link images for other applications direct the user to placeholder webpages that will be updated as 
-      more projects are completed. The placeholder webpages are basic, but let the  user know that further updates are pending.
+      more projects are completed. The placeholder webpages are basic, but let the  user know that further 
+      updates are pending.
 
     * The webpage is adaptive to various screen sizes, and changes format to suit various display sizes. 
 

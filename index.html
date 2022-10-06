@@ -3,35 +3,38 @@
   
   <head>
     <meta charset="UTF-8" />
-    <link rel="stylesheet" href="./assets/css/reset.css">
-    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/reset.css"> <!-- This references a reset css to increase uniformity across multiple browsers -->
+    <link rel="stylesheet" href="./assets/css/style.css"> <!-- This references the css to apply styling to the page -->
     <title>Dallas Sybrowsky's Portfolio</title> 
 </head>
+
 <body>
     <header class="header">
         <h1>Dallas Sybrowsky</h1>
-        <nav>
-            <ul class="nav-list">
-                <li>
-                    <a href="#about-me">About Me</a>
-                </li>
-                <li>
-                    <a href="#projects">Projects</a>
-                </li>
-                <li>
-                    <a href="#contact-me">Contact Me</a>
-                </li>
-            </ul>
+        <nav> <!-- This section contains the navigation bar -->
+          <ul class="nav-list"> 
+            <li>
+              <a href="#about-me">About Me</a>
+            </li>
+            <li>
+              <a href="#projects">Projects</a>
+            </li>
+            <li>
+              <a href="#contact-me">Contact Me</a>
+            </li>
+          </ul>
         </nav>
     </header>
-    <figure class="img-banner"></figure>
+
+    <figure class="img-banner"></figure> <!-- This provides a place for the insertion of the banner image contained in the CSS file -->
+    
     <main class="content">   
-      <section class="main-section">
-        <section id="about-me" class="section-title">
+      <section class="main-section">  <!-- This section contains the About Me section -->
+        <section id="about-me" class="section-title"> <!-- This section contains the About Me title section -->
           <h2>About Me</h2>          
           <img class="profile-pic" src="./assets/images/DallasSybrowskyClip.jpg" alt="Photo of Dallas">
         </section>
-        <section class="section-details">
+        <section class="section-details"> <!-- This section contains the About Me details -->
           <section class="about-me">
             <p>My name is Dallas Sybrowsky and I have a B.S. in Biochemistry and Cell Biology from UC San Diego. After working in sales for 11 years I moved on to pursue a career in coding. I'm interested in software engineering and I'm looking forward to learning how to build software that can improve the productivity and lives of its users.
             </p>
@@ -41,54 +44,55 @@
           </section>  
         </section>
       </section>
-      <section class="main-section">
-        <section id="projects" class="section-title">
+      <section class="main-section"> <!-- This section contains the Projects section -->
+        <section id="projects" class="section-title"> <!-- This section contains the Projects title section -->
           <h2>Projects</h2>
         </section>
-        <section class="section-details">
+        <section class="section-details"> <!-- This section contains the Projects details -->
           <section class="projects">
-            <div class="primary">
+            <div class="primary"> <!-- This section contains the Primary Project details -->
               <article>
                 <a href=https://dallassybrowsky.github.io/Horiseon target="_blank">
-                <img src="assets/images/DSybrHoriseonClip.png" alt="Horiseon SEO Project">
-                <header class="primaryProject">Horiseon SEO Project</header>
+                  <img src="assets/images/DSybrHoriseonClip.png" alt="Horiseon SEO Project">
+                  <header class="primaryProject">Horiseon SEO Project</header>
                 </a>
               </article>
             </div>
-            <div class="secondary">
-                <article>
+            <div class="secondary"> <!-- This section contains the secondary Project details -->
+              <article>
                 <a href="Project1.html" target="_blank">
-                <img src="assets/images/code.jpg" alt="Computer Code">
-                <header>JavaScript: Rock, Paper, Scissors Game</header>
+                  <img src="assets/images/code.jpg" alt="Computer Code">
+                  <header>JavaScript: Rock, Paper, Scissors Game</header>
                 </a>
               </article>
 
               <article>
                 <a href="Project2.html" target="_blank">
-                <img src="assets/images/server.jpg" alt="Server Bank">
-                <header>Project 2</header>
+                  <img src="assets/images/server.jpg" alt="Server Bank">
+                  <header>Project 2</header>
                 </a>
               </article>
 
               <article>
                 <a href="Project3.html" target="_blank">
-                <img src="assets/images/rainywindow.jpg" alt="Rainy Window">
-                <header>Project 3</header>
+                  <img src="assets/images/rainywindow.jpg" alt="Rainy Window">
+                  <header>Project 3</header>
                 </a>
               </article>
 
               <article>
                 <a href="Project4.html" target="_blank">
-                <img src="assets/images/foggymountains.jpg" alt="Foggy Mountains">
-                <header>Project 4</header>
+                  <img src="assets/images/foggymountains.jpg" alt="Foggy Mountains">
+                  <header>Project 4</header>
                 </a>
               </article>
             </div>
           </section>
         </section>
       </section>
+      
       <section class="main-section">
-        <section id="contact-me" class="section-title">
+        <section id="contact-me" class="section-title"> <!-- This section contains the Contact Me section -->
           <h2>Contact Me</h2>
         </section>
         <section class="section-details">
@@ -114,10 +118,12 @@
         </section>
       </section>
     </main>
-    <footer>
+    
+    <footer> <!-- This section contains the footer -->
       <h3>
         Created by Dallas Sybrowsky &copy; 2022
       </h3>
     </footer>
+
   </body>
 </html>
