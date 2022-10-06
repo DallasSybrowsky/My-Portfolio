@@ -1,0 +1,272 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
+:root {
+  --blue-main: #1f3185;
+  --white-main: #f0ead6;
+}
+
+* {
+  font-family: "Montserrat", sans-serif;
+  box-sizing: border-box;
+}
+
+.header {
+  padding-right: 4px;
+  background-color: var(--blue-main);
+  color: var(--white-main);
+}
+
+.header h1 {
+  display: inline;
+  font-size: 48px;
+  padding: 0px 0px 4px 0px;
+  margin: 0px 0px 0px 4px;
+}
+
+.header nav ul li {
+  color: var(--white-main);
+  font-weight: bold;
+  margin-right: 5px;
+}
+
+.secondary article {
+  display: flex;
+  width: 45%;
+  margin: 1em;
+  /* border: 10px solid var(--blue-main); */
+}
+.secondary {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+ul li a:hover {
+  font-weight: bold;
+  border-color: var(--white-main);
+}
+
+body {
+  margin: 0px;
+  background-color: var(--white-main);
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 2px 0px;
+  text-align: right;
+  color: var(--blue-main);
+}
+
+nav {
+  display: flex;
+  align-items: stretch;
+  border-radius: 10px;
+}
+
+nav a {
+  color: var(--white-main);
+  border-bottom: solid 3px transparent;
+  padding: 5px 20px;
+  text-decoration: none;
+  text-align: center;
+}
+
+.section-details .projects a:hover {
+  opacity: 0.75;
+  transition: 0.5s;
+}
+
+.nav-list {
+  display: flex;
+}
+
+.nav-list li {
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+}
+
+.main-section {
+  background-color: var(--white-main);
+  color: var(--blue-main);
+}
+
+.main-section a {
+  color: var(--blue-main);
+  text-decoration: none;
+}
+
+.img-banner {
+  height: 300px;
+  max-width: 100%;
+  margin: 0px;
+  background-image: url("../images/Mountains.jpg");
+  object-fit: fill;
+  background-position: center;
+  background-size: cover;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+section {
+  background-color: var(--white-main);
+}
+
+.main-section { /*Governs main section style*/
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+.section-title { /*Governs main section style*/
+  justify-content: center;
+  flex-basis: 30%;
+  border-right: 4px solid var(--blue-main);
+  margin: 10px 0px 20px 10px;
+}
+
+.section-title h2 {
+  min-width: 152px;
+  justify-content: flex-end;
+  text-align: right;
+  color: var(--blue-main);
+  font-size: 28px;
+  margin: 0px 8px 0px 0px;
+}
+
+.section-title img {
+  max-width: 60%;
+  border-radius: 12px;
+  justify-content: center;
+  text-align: right;
+  padding: 5px 5px 0px 0px;
+}
+
+.section-details {
+  margin: 12px;
+  justify-content: flex-end;
+  flex-basis: 80%;
+}
+.section-details p {
+  margin: 12px 8px 12px 8px;
+  font-size: 20px;
+  line-height: 1.6;
+}
+.section-details img {
+  border: 12px solid var(--blue-main);
+}
+
+article {
+  width: 95%;
+}
+
+article img {
+  max-width: 100%;
+  border-bottom: 4px solid var(--blue-main);
+  margin: 0px 0px -4px 0px;
+}
+
+article header {
+  background-color: var(--blue-main);
+  padding: 0px 0px 8px 8px;
+  color: var(--white-main);
+}
+article header .primaryProject {
+  background-color: var(--blue-main);
+  padding: 0px 0px 8px 8px;
+  color: var(--white-main);
+  width: 50%;
+}
+
+/* .content {
+  display: flex;
+  flex-direction: column;
+} */
+
+/* Contact me section */
+.contact-list {
+  display: flex;
+  max-width: 75%;
+  justify-content: space-around;
+}
+
+.contact-me a {
+  padding: 5px 20px;
+  margin: 0px;
+}
+
+.contact-list img {
+  width: 96px;
+  align-items: center;
+  border: 0px solid transparent;
+}
+.contact-list li:hover {
+  margin: -12px 0px;
+  transition: 0.5s;
+}
+
+footer {
+  padding: 20px;
+  text-align: center;
+  background: var(--blue-main);
+  color: var(--white-main);
+}
+
+@media screen and (max-width: 931px) {
+  header h1 {
+    min-width:416px;
+    font-size: .75em;
+  }  
+  header nav ul {
+    font-size: .6em;
+  }
+
+  .secondary article {
+    display: flex;
+    width: 100%;
+    margin: 1em;
+    /* border: 10px solid var(--blue-main); */
+  }
+  .secondary {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  /* Changing the header*/
+ header h1 {
+    min-width:416px;
+    font-size: .75em;
+  }  
+  /* Change the header configuration */
+  header a {
+    min-width: 136px;
+    background: var(--blue-main); 
+  }
+  /* Change the navbar and footer background */
+  header nav ul {
+    display: flex;
+    font-size: .75em;
+    flex-direction: column;
+    align-items:flex-start;
+    background-color: var(--blue-main);
+  }
+  .contact-list {
+    display: flex;
+    max-width: 100%;
+    justify-content: space-around;
+  }
+  .contact-me a {
+    padding: 4px 16px;
+    margin: 0px;
+  }
+  .contact-list img {
+    width: 60px;
+    align-items: center;
+    border: 0px solid transparent;
+  }
+}
