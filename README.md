@@ -59,4 +59,4 @@ Here is a link to the live site: https://dallassybrowsky.github.io/My-Portfolio/
 
 Below is a screenshot of the refactored website:
 
-<img width="500" src="./assets/images/DSybroPortfolio.png" alt="Screenshot of Portfolio">
+<img width="500" src="./assets/images/DSybrPortfolio.png" alt="Screenshot of Portfolio">
