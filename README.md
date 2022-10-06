@@ -47,11 +47,8 @@ Below are details on the methods I used to accomplish each of the items in the A
     * The webpage is adaptive to various screen sizes, and changes format to suit various display sizes. 
 
 ## Link
-Here is a link to the live site: https://dallassybrowsky.github.io/Horiseon/
+Here is a link to the live site: https://https://dallassybrowsky.github.io/My-Portfolio/
 
 Below is a screenshot of the refactored website:
 
-![alt="Screen Shot of Portfolio Website"] (src="./assets/images/DSybroPortfolio.png")
-
-<img width="500" alt="Screen Shot of Portfolio Website" src="./assets/images/DSybroPortfolio.png">
 <img width="500" src="./assets/images/DSybroPortfolio.png" alt="Screenshot of Portfolio">
